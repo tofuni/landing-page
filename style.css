@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/* Styling for header */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -33,4 +34,36 @@ body {
 .header-links a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Styling for hero section */
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 6%;
+    padding: 6%;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-copy {
+    width: 450px;
+}
+
+.hero img {
+    height: 250px;
+    width: 500px;
 }
