@@ -108,3 +108,34 @@ button {
     color: #696969;
     font-size: 18px;
 }
+
+/* Styling for testimonial section */
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 0 6% 0;
+}
+
+.testimonial div {
+    width: 825px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 3% 0;
+}
+
+.bio {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 6%;
+}
