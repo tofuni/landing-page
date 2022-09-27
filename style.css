@@ -1,7 +1,17 @@
+/* Global styling */
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 9px;
+    border-style: none;
 }
 
 /* Styling for header */
